@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Thunder\\source\\repos\\GatewayService\\GatewayService\\GatewayService.csproj",
+      "projectUniqueName": "C:\\Users\\Thunder\\Source\\Repos\\tim-11---auctionland-tim-11-smartstore\\GatewayService\\GatewayService\\GatewayService.csproj",
       "projectName": "GatewayService",
-      "projectPath": "C:\\Users\\Thunder\\source\\repos\\GatewayService\\GatewayService\\GatewayService.csproj",
+      "projectPath": "C:\\Users\\Thunder\\Source\\Repos\\tim-11---auctionland-tim-11-smartstore\\GatewayService\\GatewayService\\GatewayService.csproj",
       "packagesPath": "C:\\Users\\Thunder\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Thunder\\source\\repos\\GatewayService\\GatewayService\\obj\\",
+      "outputPath": "C:\\Users\\Thunder\\Source\\Repos\\tim-11---auctionland-tim-11-smartstore\\GatewayService\\GatewayService\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Thunder\\AppData\\Roaming\\NuGet\\NuGet.Config",

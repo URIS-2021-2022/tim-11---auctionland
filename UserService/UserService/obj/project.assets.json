@@ -213,11 +213,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Thunder\\source\\repos\\UserService\\UserService\\UserService.csproj",
+      "projectUniqueName": "C:\\Users\\Thunder\\Source\\Repos\\tim-11---auctionland-tim-11-smartstore\\UserService\\UserService\\UserService.csproj",
       "projectName": "UserService",
-      "projectPath": "C:\\Users\\Thunder\\source\\repos\\UserService\\UserService\\UserService.csproj",
+      "projectPath": "C:\\Users\\Thunder\\Source\\Repos\\tim-11---auctionland-tim-11-smartstore\\UserService\\UserService\\UserService.csproj",
       "packagesPath": "C:\\Users\\Thunder\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Thunder\\source\\repos\\UserService\\UserService\\obj\\",
+      "outputPath": "C:\\Users\\Thunder\\Source\\Repos\\tim-11---auctionland-tim-11-smartstore\\UserService\\UserService\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Thunder\\AppData\\Roaming\\NuGet\\NuGet.Config",
