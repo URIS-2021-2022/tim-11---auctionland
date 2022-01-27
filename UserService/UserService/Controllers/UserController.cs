@@ -17,9 +17,9 @@ namespace UserService.Controllers
 
         // GET api/<UserController>/5
         [HttpGet("{id}")]
-        public string Get(int id)
+        public int Get(int id)
         {
-            return "value";
+            return id;
         }
 
         // POST api/<UserController>
