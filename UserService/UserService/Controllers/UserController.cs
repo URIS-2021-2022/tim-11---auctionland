@@ -10,9 +10,14 @@ namespace UserService.Controllers
     public class UserController : ControllerBase
     {
         UserDbContext db;
+        IJwtAuthManager jwtAuthManager;
         public UserController() 
         {
             db = new UserDbContext();
+        }
+        public UserController(IJwtAuthManager jwtAuthManager)
+        {
+            this.jwtAuthManager = jwtAuthManager;
         }
         // GET: api/<UserController>
         [HttpGet]
@@ -42,6 +47,15 @@ namespace UserService.Controllers
             {
                 return StatusCode(StatusCodes.Status500InternalServerError, ex);
             }
+        }
+        // POST api/<UserController>/Authenticate
+        [HttpPost("Authenticate")]
+        public IActionResult Authenticate([FromBody] LoginInfo loginInfo)
+        {
+            var token = jwtAuthManager.Authenticate(loginInfo.Username, loginInfo.Password);
+            if (token == null)
+                return Unauthorized();
+            return Ok(token);
         }
 
         // PUT api/<UserController>/5

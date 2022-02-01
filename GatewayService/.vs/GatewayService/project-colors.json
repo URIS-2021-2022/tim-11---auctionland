@@ -1,5 +1,11 @@
 {
   "Version": 1,
-  "ProjectMap": {},
-  "NextColorIndex": 0
+  "ProjectMap": {
+    "6037b93f-e476-4fda-8af9-affa651f7dd6": {
+      "ProjectGuid": "6037b93f-e476-4fda-8af9-affa651f7dd6",
+      "DisplayName": "GatewayService",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
 }
