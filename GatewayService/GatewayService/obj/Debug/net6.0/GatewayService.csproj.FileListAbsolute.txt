@@ -30,3 +30,10 @@ C:\Users\Thunder\Source\Repos\tim-11---auctionland\GatewayService\GatewayService
 C:\Users\Thunder\Source\Repos\tim-11---auctionland\GatewayService\GatewayService\bin\Debug\net6.0\Ocelot.dll
 C:\Users\Thunder\Source\Repos\tim-11---auctionland\GatewayService\GatewayService\obj\Debug\net6.0\GatewayService.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Thunder\Source\Repos\tim-11---auctionland\GatewayService\GatewayService\obj\Debug\net6.0\GatewayService.csproj.CopyComplete
+C:\Users\Thunder\Source\Repos\tim-11---auctionland\GatewayService\GatewayService\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Thunder\Source\Repos\tim-11---auctionland\GatewayService\GatewayService\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Thunder\Source\Repos\tim-11---auctionland\GatewayService\GatewayService\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Thunder\Source\Repos\tim-11---auctionland\GatewayService\GatewayService\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Thunder\Source\Repos\tim-11---auctionland\GatewayService\GatewayService\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Thunder\Source\Repos\tim-11---auctionland\GatewayService\GatewayService\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Thunder\Source\Repos\tim-11---auctionland\GatewayService\GatewayService\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll

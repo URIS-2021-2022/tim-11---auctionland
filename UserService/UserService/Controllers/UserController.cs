@@ -11,14 +11,13 @@ namespace UserService.Controllers
     {
         UserDbContext db;
         IJwtAuthManager jwtAuthManager;
-        public UserController() 
+        public UserController(IJwtAuthManager jwtAuthManager) 
         {
             db = new UserDbContext();
-        }
-        public UserController(IJwtAuthManager jwtAuthManager)
-        {
             this.jwtAuthManager = jwtAuthManager;
+
         }
+
         // GET: api/<UserController>
         [HttpGet]
         public IEnumerable<User> Get()
@@ -50,9 +49,9 @@ namespace UserService.Controllers
         }
         // POST api/<UserController>/Authenticate
         [HttpPost("Authenticate")]
-        public IActionResult Authenticate([FromBody] LoginInfo loginInfo)
+        public IActionResult Authenticate(string username, string password)
         {
-            var token = jwtAuthManager.Authenticate(loginInfo.Username, loginInfo.Password);
+            var token = jwtAuthManager.Authenticate(username, password);
             if (token == null)
                 return Unauthorized();
             return Ok(token);

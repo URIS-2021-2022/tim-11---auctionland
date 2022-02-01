@@ -11,9 +11,41 @@
 
       ],
       "UpStreamPathTemplate": "/user",
-      "UpStreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ]
+      "UpStreamHttpMethod": [ "GET", "POST"],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+    {
+      "DownStreamPathTemplate": "/api/user/{id}",
+      "DownStreamScheme": "https",
+      "DownStreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44349
+        }
 
+      ],
+      "UpStreamPathTemplate": "/user/{id}",
+      "UpStreamHttpMethod": [ "GET","PUT","DELETE" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+    {
+      "DownStreamPathTemplate": "/api/user/authenticate",
+      "DownStreamScheme": "https",
+      "DownStreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44349
+        }
 
+      ],
+      "UpStreamPathTemplate": "/user/authenticate",
+      "UpStreamHttpMethod": [ "POST" ]
     }
   ]
 }
