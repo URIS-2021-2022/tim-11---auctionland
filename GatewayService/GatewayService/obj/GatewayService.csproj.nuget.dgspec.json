@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Thunder\\source\\repos\\tim-11---auctionland\\GatewayService\\GatewayService\\GatewayService.csproj": {}
+    "C:\\Users\\Alek\\Source\\Repos\\tim-11---auctionland\\GatewayService\\GatewayService\\GatewayService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Thunder\\source\\repos\\tim-11---auctionland\\GatewayService\\GatewayService\\GatewayService.csproj": {
+    "C:\\Users\\Alek\\Source\\Repos\\tim-11---auctionland\\GatewayService\\GatewayService\\GatewayService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Thunder\\source\\repos\\tim-11---auctionland\\GatewayService\\GatewayService\\GatewayService.csproj",
+        "projectUniqueName": "C:\\Users\\Alek\\Source\\Repos\\tim-11---auctionland\\GatewayService\\GatewayService\\GatewayService.csproj",
         "projectName": "GatewayService",
-        "projectPath": "C:\\Users\\Thunder\\source\\repos\\tim-11---auctionland\\GatewayService\\GatewayService\\GatewayService.csproj",
-        "packagesPath": "C:\\Users\\Thunder\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Thunder\\source\\repos\\tim-11---auctionland\\GatewayService\\GatewayService\\obj\\",
+        "projectPath": "C:\\Users\\Alek\\Source\\Repos\\tim-11---auctionland\\GatewayService\\GatewayService\\GatewayService.csproj",
+        "packagesPath": "C:\\Users\\Alek\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Alek\\Source\\Repos\\tim-11---auctionland\\GatewayService\\GatewayService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Thunder\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Alek\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -43,6 +43,10 @@
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[6.0.1, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.14.0, )"
             },
             "Ocelot": {
               "target": "Package",

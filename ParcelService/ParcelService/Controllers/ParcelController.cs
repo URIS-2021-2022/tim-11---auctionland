@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using ParcelService.Database;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -8,11 +9,17 @@ namespace ParcelService.Controllers
     [ApiController]
     public class ParcelController : ControllerBase
     {
+        ParcelDbContext db;
+
+        public ParcelController()
+        {
+            db = new ParcelDbContext();
+        }
         // GET: api/<ParcelController>
         [HttpGet]
-        public IEnumerable<string> Get()
+        public IEnumerable<Parcel> Get()
         {
-            return new string[] { "value1", "value2" };
+            return db.Parcels.ToList();
         }
 
         // GET api/<ParcelController>/5

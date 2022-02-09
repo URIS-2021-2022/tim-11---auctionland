@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Thunder\\Source\\Repos\\tim-11---auctionland\\ParcelService\\ParcelService\\ParcelService.csproj": {}
+    "C:\\Users\\Alek\\Source\\Repos\\tim-11---auctionland\\ParcelService\\ParcelService\\ParcelService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Thunder\\Source\\Repos\\tim-11---auctionland\\ParcelService\\ParcelService\\ParcelService.csproj": {
+    "C:\\Users\\Alek\\Source\\Repos\\tim-11---auctionland\\ParcelService\\ParcelService\\ParcelService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Thunder\\Source\\Repos\\tim-11---auctionland\\ParcelService\\ParcelService\\ParcelService.csproj",
+        "projectUniqueName": "C:\\Users\\Alek\\Source\\Repos\\tim-11---auctionland\\ParcelService\\ParcelService\\ParcelService.csproj",
         "projectName": "ParcelService",
-        "projectPath": "C:\\Users\\Thunder\\Source\\Repos\\tim-11---auctionland\\ParcelService\\ParcelService\\ParcelService.csproj",
-        "packagesPath": "C:\\Users\\Thunder\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Thunder\\Source\\Repos\\tim-11---auctionland\\ParcelService\\ParcelService\\obj\\",
+        "projectPath": "C:\\Users\\Alek\\Source\\Repos\\tim-11---auctionland\\ParcelService\\ParcelService\\ParcelService.csproj",
+        "packagesPath": "C:\\Users\\Alek\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Alek\\Source\\Repos\\tim-11---auctionland\\ParcelService\\ParcelService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Thunder\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Alek\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
