@@ -15,7 +15,11 @@
       "AuthenticationOptions": {
         "AuthenticationProviderKey": "Bearer",
         "AllowedScopes": []
+      },
+      "RouteClaimsRequirement": {
+        "useracctype": "Administrator"
       }
+
     },
     {
       "DownStreamPathTemplate": "/api/user/{id}",

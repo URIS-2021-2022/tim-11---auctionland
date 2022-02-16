@@ -11,11 +11,36 @@
 
       ],
       "UpStreamPathTemplate": "/user",
-      "UpStreamHttpMethod": [ "GET", "POST" ],
+      "UpStreamHttpMethod": [ "GET" ],
       "AuthenticationOptions": {
         "AuthenticationProviderKey": "Bearer",
         "AllowedScopes": []
+      },
+      "RouteClaimsRequirement": {
+        "useracctype": [ "Administrator", "Menadzer" ]
       }
+
+    },
+    {
+      "DownStreamPathTemplate": "/api/user",
+      "DownStreamScheme": "http",
+      "DownStreamHostAndPorts": [
+        {
+          "Host": "uservice",
+          "Port": 80
+        }
+
+      ],
+      "UpStreamPathTemplate": "/user",
+      "UpStreamHttpMethod": [ "POST" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      },
+      "RouteClaimsRequirement": {
+        "useracctype": "Administrator"
+      }
+
     },
     {
       "DownStreamPathTemplate": "/api/user/{id}",
@@ -28,10 +53,34 @@
 
       ],
       "UpStreamPathTemplate": "/user/{id}",
-      "UpStreamHttpMethod": [ "GET", "PUT", "DELETE" ],
+      "UpStreamHttpMethod": [ "GET" ],
       "AuthenticationOptions": {
         "AuthenticationProviderKey": "Bearer",
         "AllowedScopes": []
+      },
+      "RouteClaimsRequirement": {
+        "useracctype": [ "Administrator", "Menadzer" ]
+      }
+
+    },
+    {
+      "DownStreamPathTemplate": "/api/user/{id}",
+      "DownStreamScheme": "http",
+      "DownStreamHostAndPorts": [
+        {
+          "Host": "uservice",
+          "Port": 80
+        }
+
+      ],
+      "UpStreamPathTemplate": "/user/{id}",
+      "UpStreamHttpMethod": [ "PUT", "DELETE" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      },
+      "RouteClaimsRequirement": {
+        "useracctype": [ "Administrator"]
       }
     },
     {

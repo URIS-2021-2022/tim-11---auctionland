@@ -33,7 +33,7 @@
       "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}/swagger",
       "publishAllPorts": true,
       "useSSL": false,
-      "DockerfileRunArguments": "--network=servicenetwork --name=uservice --ip=172.19.120.230"
+      "DockerfileRunArguments": "--network=servicenetwork --name=uservice"
     },
     "WSL": {
       "commandName": "WSL2",
