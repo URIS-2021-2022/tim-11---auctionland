@@ -7,5 +7,6 @@ namespace ParcelService.Database
         [Key]
         public int BrojDelaParcele { get; set; }
         public int Povrsina { get; set;}
+        public int IdMaticneParcele { get; set; }
     }
 }

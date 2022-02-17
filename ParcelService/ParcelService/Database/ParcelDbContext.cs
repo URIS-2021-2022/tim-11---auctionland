@@ -4,6 +4,7 @@ namespace ParcelService.Database
 {
     public class ParcelDbContext : DbContext
     {
+        public DbSet<DeoParcele> DeoParcele { get; set; }
         public DbSet<Parcel> Parcels { get; set; }
         public DbSet<KatastarskaOpstina> KatastarskaOpstina { get; set; }
 
