@@ -4,9 +4,9 @@ namespace ParcelService.Database
 {
     public class ParcelDbContext : DbContext
     {
-        public DbSet<DeoParcele> DeoParcele { get; set; }
-        public DbSet<Parcel> Parcels { get; set; }
-        public DbSet<KatastarskaOpstina> KatastarskaOpstina { get; set; }
+        public DbSet<DeoParcele>? DeoParcele { get; set; }
+        public DbSet<Parcel>? Parcels { get; set; }
+        public DbSet<KatastarskaOpstina>? KatastarskaOpstina { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

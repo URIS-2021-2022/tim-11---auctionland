@@ -6,6 +6,6 @@ namespace ParcelService.Database
     {
         [Key]
         public int IdOpstine { get; set; }
-        public string NazivOpstine { get; set; }
+        public string? NazivOpstine { get; set; }
     }
 }
