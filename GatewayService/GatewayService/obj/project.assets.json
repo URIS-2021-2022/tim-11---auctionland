@@ -11,7 +11,7 @@
           "lib/net6.0/FluentValidation.dll": {}
         }
       },
-      "Microsoft.AspNetCore.Authentication.JwtBearer/6.0.1": {
+      "Microsoft.AspNetCore.Authentication.JwtBearer/6.0.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.IdentityModel.Protocols.OpenIdConnect": "6.10.0"
@@ -193,7 +193,7 @@
           "lib/netstandard2.0/Newtonsoft.Json.Bson.dll": {}
         }
       },
-      "Ocelot/18.0.0": {
+      "Ocelot/19.0.0": {
         "type": "package",
         "dependencies": {
           "FluentValidation": "10.3.6",
@@ -269,10 +269,10 @@
         "lib/netstandard2.1/FluentValidation.xml"
       ]
     },
-    "Microsoft.AspNetCore.Authentication.JwtBearer/6.0.1": {
-      "sha512": "5LDZ36RYl/31dRl807Ad1WV3GwaYprYyPu6+pjTkjpjsv/e2wIs7/VMtcp04RKIjO9oANcvCahZWX1zpH2+tHg==",
+    "Microsoft.AspNetCore.Authentication.JwtBearer/6.0.2": {
+      "sha512": "piqHQnFONTynowTNuMDqCyL2oWSVrnoDhwc7iywwl4VG0Y2WCbpyoYQyiXlHpyc9htWy2KcM2cAe2twC4gBt8w==",
       "type": "package",
-      "path": "microsoft.aspnetcore.authentication.jwtbearer/6.0.1",
+      "path": "microsoft.aspnetcore.authentication.jwtbearer/6.0.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -280,7 +280,7 @@
         "THIRD-PARTY-NOTICES.TXT",
         "lib/net6.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll",
         "lib/net6.0/Microsoft.AspNetCore.Authentication.JwtBearer.xml",
-        "microsoft.aspnetcore.authentication.jwtbearer.6.0.1.nupkg.sha512",
+        "microsoft.aspnetcore.authentication.jwtbearer.6.0.2.nupkg.sha512",
         "microsoft.aspnetcore.authentication.jwtbearer.nuspec"
       ]
     },
@@ -667,15 +667,14 @@
         "newtonsoft.json.bson.nuspec"
       ]
     },
-    "Ocelot/18.0.0": {
-      "sha512": "HAde/NLh+q1Szm54p218hKrd4ceYdNZ2UrfcTBbxJpSmPtXq0ER95otSLP+fnrFLT2UULUdkRL4noDZmG1A4AQ==",
+    "Ocelot/19.0.0": {
+      "sha512": "SI2H03HEUlPnEWzB1uR+ua0yMHCdwptGuzholiw+Wbj7pArFSY8sgMVQY4rtUHht/dyedr+bxJpEunQrMxlQHA==",
       "type": "package",
-      "path": "ocelot/18.0.0",
+      "path": "ocelot/19.0.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "lib/net6.0/Ocelot.dll",
-        "ocelot.18.0.0.nupkg.sha512",
+        "ocelot.19.0.0.nupkg.sha512",
         "ocelot.nuspec"
       ]
     },
@@ -790,9 +789,9 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Microsoft.AspNetCore.Authentication.JwtBearer >= 6.0.1",
+      "Microsoft.AspNetCore.Authentication.JwtBearer >= 6.0.2",
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.14.0",
-      "Ocelot >= 18.0.0"
+      "Ocelot >= 19.0.0"
     ]
   },
   "packageFolders": {
@@ -808,6 +807,7 @@
       "outputPath": "C:\\Users\\Alek\\Source\\Repos\\tim-11---auctionland\\GatewayService\\GatewayService\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
+        "C:\\Users\\Alek\\Source\\Repos\\tim-11---auctionland\\GatewayService\\NuGet.Config",
         "C:\\Users\\Alek\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -815,7 +815,7 @@
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "http://localhost:8624/nuget/onlinerepo/v3/index.json": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -828,6 +828,9 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreLockProperties": {
+        "restorePackagesWithLockFile": "true"
       }
     },
     "frameworks": {
@@ -836,7 +839,7 @@
         "dependencies": {
           "Microsoft.AspNetCore.Authentication.JwtBearer": {
             "target": "Package",
-            "version": "[6.0.1, )"
+            "version": "[6.0.2, )"
           },
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
             "target": "Package",
@@ -844,7 +847,7 @@
           },
           "Ocelot": {
             "target": "Package",
-            "version": "[18.0.0, )"
+            "version": "[19.0.0, )"
           }
         },
         "imports": [

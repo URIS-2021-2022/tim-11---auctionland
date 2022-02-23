@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "OCOOhQ1BkTdOavMzu558ECS+AxhCzE6jT7kt0e9YoX5ZSooarlP0zhAzDR7ApccAptk0+XdP2zcxvg7Skr7X/A==",
+  "dgSpecHash": "eBnqIlMzjLrbsWCgm/EKuBiwdJZM80EKtnai6i+3qqKmB02wcg28jqQjXgrqCKITGxjS/n7cJ7xtw2YibSJZBQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Alek\\Source\\Repos\\tim-11---auctionland\\GatewayService\\GatewayService\\GatewayService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alek\\.nuget\\packages\\fluentvalidation\\10.3.6\\fluentvalidation.10.3.6.nupkg.sha512",
-    "C:\\Users\\Alek\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.1\\microsoft.aspnetcore.authentication.jwtbearer.6.0.1.nupkg.sha512",
+    "C:\\Users\\Alek\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.2\\microsoft.aspnetcore.authentication.jwtbearer.6.0.2.nupkg.sha512",
     "C:\\Users\\Alek\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\6.0.1\\microsoft.aspnetcore.jsonpatch.6.0.1.nupkg.sha512",
     "C:\\Users\\Alek\\.nuget\\packages\\microsoft.aspnetcore.middlewareanalysis\\6.0.1\\microsoft.aspnetcore.middlewareanalysis.6.0.1.nupkg.sha512",
     "C:\\Users\\Alek\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\6.0.1\\microsoft.aspnetcore.mvc.newtonsoftjson.6.0.1.nupkg.sha512",
@@ -20,7 +20,7 @@
     "C:\\Users\\Alek\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.14.0\\microsoft.visualstudio.azure.containers.tools.targets.1.14.0.nupkg.sha512",
     "C:\\Users\\Alek\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\Alek\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512",
-    "C:\\Users\\Alek\\.nuget\\packages\\ocelot\\18.0.0\\ocelot.18.0.0.nupkg.sha512",
+    "C:\\Users\\Alek\\.nuget\\packages\\ocelot\\19.0.0\\ocelot.19.0.0.nupkg.sha512",
     "C:\\Users\\Alek\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512",
     "C:\\Users\\Alek\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.10.0\\system.identitymodel.tokens.jwt.6.10.0.nupkg.sha512",
     "C:\\Users\\Alek\\.nuget\\packages\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512"

@@ -9,11 +9,11 @@ namespace ParcelService.Controllers
     [ApiController]
     public class ParcelController : ControllerBase
     {
-        ParcelDbContext db;
+       readonly ParcelDbContext  db;
 
         public ParcelController()
         {
-            db = new ParcelDbContext();
+             db = new ParcelDbContext();
         }
         // GET: api/<ParcelController>
         [HttpGet]
@@ -117,37 +117,37 @@ namespace ParcelService.Controllers
         [HttpPut("{id}")]
         public ObjectResult Put(int id, [FromBody] Parcel model)
         {
-            var temp = new Parcel();
-            temp = db.Parcels.Find(id);
-            if (temp.KorisnikParcele != null)
+            
+            var temp = db.Parcels.Find(id);
+            if (model.KorisnikParcele != null)
                 temp.KorisnikParcele = model.KorisnikParcele;
-            if(temp.KatastarskaOpstina != null)
+            if(model.KatastarskaOpstina != null)
                 temp.KatastarskaOpstina = model.KatastarskaOpstina;
-            if(temp.Povrsina != null)
+            if(model.Povrsina != null)
                 temp.Povrsina = model.Povrsina;
-            if(temp.BrListaNepokretnosti != null)
+            if(model.BrListaNepokretnosti != null)
                 temp.BrListaNepokretnosti = model.BrListaNepokretnosti;
-            if(temp.Kultura != null)
+            if(model.Kultura != null)
                 temp.Kultura = model.Kultura;
-            if(temp.Klasa != null)
+            if(model.Klasa != null)
                 temp.Klasa = model.Klasa;
-            if(temp.Obradivost != null)
+            if(model.Obradivost != null)
                 temp.Obradivost = model.Obradivost;
-            if(temp.ZasticenaZona != null)
+            if(model.ZasticenaZona != null)
                 temp.ZasticenaZona = model.ZasticenaZona;
-            if(temp.OblikSvojine != null)
+            if(model.OblikSvojine != null)
                 temp.OblikSvojine = model.OblikSvojine;
-            if(temp.Odvodnjavanje != null)
+            if(model.Odvodnjavanje != null)
                 temp.Odvodnjavanje = model.Odvodnjavanje;
-            if(temp.KulturaStvStanje != null)
+            if(model.KulturaStvStanje != null)
                 temp.KulturaStvStanje = model.KulturaStvStanje;
-            if(temp.KlasaStvStanje !=null)
+            if(model.KlasaStvStanje !=null)
                 temp.KlasaStvStanje=model.KlasaStvStanje;
-            if (temp.ObradivostStvStanje != null)
+            if (model.ObradivostStvStanje != null)
                 temp.ObradivostStvStanje = model.ObradivostStvStanje;
-            if (temp.ZasticenaZonaStvStanje != null)
+            if (model.ZasticenaZonaStvStanje != null)
                 temp.ZasticenaZonaStvStanje = model.ZasticenaZonaStvStanje;
-            if (temp.OblikSvojineStvStanje != null)
+            if (model.OblikSvojineStvStanje != null)
                 temp.OblikSvojineStvStanje=model.OblikSvojineStvStanje;
             db.Parcels.Add(temp);
             db.SaveChanges();
@@ -157,9 +157,9 @@ namespace ParcelService.Controllers
         [HttpPut("deoparcele/{id}")]
         public ObjectResult Putdp(int id, [FromBody] DeoParcele model)
         {
-            var temp = new DeoParcele();
-            temp = db.DeoParcele.Find(id);
-            if (temp.Povrsina != null)
+            
+            var temp = db.DeoParcele.Find(id);
+            if (model.Povrsina != null)
                 temp.Povrsina = model.Povrsina;
             db.DeoParcele.Add(temp);
             db.SaveChanges();

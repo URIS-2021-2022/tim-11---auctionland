@@ -14,6 +14,7 @@
         "outputPath": "C:\\Users\\Alek\\Source\\Repos\\tim-11---auctionland\\GatewayService\\GatewayService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
+          "C:\\Users\\Alek\\Source\\Repos\\tim-11---auctionland\\GatewayService\\NuGet.Config",
           "C:\\Users\\Alek\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -21,7 +22,7 @@
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://localhost:8624/nuget/onlinerepo/v3/index.json": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -34,6 +35,9 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreLockProperties": {
+          "restorePackagesWithLockFile": "true"
         }
       },
       "frameworks": {
@@ -42,7 +46,7 @@
           "dependencies": {
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
-              "version": "[6.0.1, )"
+              "version": "[6.0.2, )"
             },
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
@@ -50,7 +54,7 @@
             },
             "Ocelot": {
               "target": "Package",
-              "version": "[18.0.0, )"
+              "version": "[19.0.0, )"
             }
           },
           "imports": [

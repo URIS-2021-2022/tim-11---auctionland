@@ -36,4 +36,8 @@ C:\Users\Alek\Source\Repos\tim-11---auctionland\GatewayService\GatewayService\ob
 C:\Users\Alek\Source\Repos\tim-11---auctionland\GatewayService\GatewayService\obj\Release\net6.0\ref\GatewayService.dll
 C:\Users\Alek\Source\Repos\tim-11---auctionland\GatewayService\GatewayService\obj\Release\net6.0\GatewayService.pdb
 C:\Users\Alek\Source\Repos\tim-11---auctionland\GatewayService\GatewayService\obj\Release\net6.0\GatewayService.genruntimeconfig.cache
+C:\Users\Alek\Source\Repos\tim-11---auctionland\GatewayService\GatewayService\bin\Release\net6.0\Routes\ocelot.parcel.json
+C:\Users\Alek\Source\Repos\tim-11---auctionland\GatewayService\GatewayService\bin\Release\net6.0\Routes\ocelot.user.json
+C:\Users\Alek\Source\Repos\tim-11---auctionland\GatewayService\GatewayService\bin\Release\net6.0\packages.lock.json
 C:\Users\Alek\Source\Repos\tim-11---auctionland\GatewayService\GatewayService\obj\Release\net6.0\GatewayService.csproj.AssemblyReference.cache
+C:\Users\Alek\Source\Repos\tim-11---auctionland\GatewayService\GatewayService\bin\Release\net6.0\NuGet.Config

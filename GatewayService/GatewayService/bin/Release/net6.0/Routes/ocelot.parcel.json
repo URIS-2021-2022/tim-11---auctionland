@@ -1,0 +1,214 @@
+{
+  "Routes": [
+    {
+      "DownStreamPathTemplate": "/api/parcel",
+      "DownStreamScheme": "http",
+      "DownStreamHostAndPorts": [
+        {
+          "Host": "pservice",
+          "Port": 80
+        }
+
+      ],
+      "UpStreamPathTemplate": "/parcel",
+      "UpStreamHttpMethod": [ "GET" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      },
+      "RouteClaimsRequirement": {
+        "useracctype": [ "Administrator", "Menadzer" ]
+      }
+
+    },
+    {
+      "DownStreamPathTemplate": "/api/parcel",
+      "DownStreamScheme": "http",
+      "DownStreamHostAndPorts": [
+        {
+          "Host": "pservice",
+          "Port": 80
+        }
+
+      ],
+      "UpStreamPathTemplate": "/parcel",
+      "UpStreamHttpMethod": [ "POST" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      },
+      "RouteClaimsRequirement": {
+        "useracctype": [ "Administrator" ]
+      }
+
+    },
+    {
+      "DownStreamPathTemplate": "/api/parcel/{id}",
+      "DownStreamScheme": "http",
+      "DownStreamHostAndPorts": [
+        {
+          "Host": "pservice",
+          "Port": 80
+        }
+
+      ],
+      "UpStreamPathTemplate": "/parcel/{id}",
+      "UpStreamHttpMethod": [ "GET" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      },
+      "RouteClaimsRequirement": {
+        "useracctype": [ "Administrator", "Menadzer" ]
+      }
+
+    },
+    {
+      "DownStreamPathTemplate": "/api/parcel/{id}",
+      "DownStreamScheme": "http",
+      "DownStreamHostAndPorts": [
+        {
+          "Host": "pservice",
+          "Port": 80
+        }
+
+      ],
+      "UpStreamPathTemplate": "/parcel/{id}",
+      "UpStreamHttpMethod": [ "PUT", "DELETE" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      },
+      "RouteClaimsRequirement": {
+        "useracctype": [ "Administrator" ]
+      }
+
+    },
+    {
+      "DownStreamPathTemplate": "/api/parcel/katop",
+      "DownStreamScheme": "http",
+      "DownStreamHostAndPorts": [
+        {
+          "Host": "pservice",
+          "Port": 80
+        }
+
+      ],
+      "UpStreamPathTemplate": "/parcel/katop",
+      "UpStreamHttpMethod": [ "GET", "POST" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      },
+      "RouteClaimsRequirement": {
+        "useracctype": [ "Administrator", "Menadzer", "Superuser" ]
+      }
+
+    },
+    {
+      "DownStreamPathTemplate": "/api/parcel/katop/{id}",
+      "DownStreamScheme": "http",
+      "DownStreamHostAndPorts": [
+        {
+          "Host": "pservice",
+          "Port": 80
+        }
+
+      ],
+      "UpStreamPathTemplate": "/parcel/katop/{id}",
+      "UpStreamHttpMethod": [ "GET", "DELETE" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      },
+      "RouteClaimsRequirement": {
+        "useracctype": [ "Administrator" ]
+      }
+
+    },
+    {
+      "DownStreamPathTemplate": "/api/parcel/deoparcele",
+      "DownStreamScheme": "http",
+      "DownStreamHostAndPorts": [
+        {
+          "Host": "pservice",
+          "Port": 80
+        }
+
+      ],
+      "UpStreamPathTemplate": "/parcel/deoparcele",
+      "UpStreamHttpMethod": [ "GET" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      },
+      "RouteClaimsRequirement": {
+        "useracctype": [ "Administrator", "Menadzer" ]
+      }
+
+    },
+    {
+      "DownStreamPathTemplate": "/api/parcel/deoparcele",
+      "DownStreamScheme": "http",
+      "DownStreamHostAndPorts": [
+        {
+          "Host": "pservice",
+          "Port": 80
+        }
+
+      ],
+      "UpStreamPathTemplate": "/parcel/deoparcele",
+      "UpStreamHttpMethod": [ "POST" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      },
+      "RouteClaimsRequirement": {
+        "useracctype": [ "Administrator", "Operater" ]
+      }
+
+    },
+    {
+      "DownStreamPathTemplate": "/api/parcel/deoparcele/{id}",
+      "DownStreamScheme": "http",
+      "DownStreamHostAndPorts": [
+        {
+          "Host": "pservice",
+          "Port": 80
+        }
+
+      ],
+      "UpStreamPathTemplate": "/parcel/deoparcele/{id}",
+      "UpStreamHttpMethod": [ "GET", "PUT", "DELETE" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      },
+      "RouteClaimsRequirement": {
+        "useracctype": [ "Administrator", "Superuser" ]
+      }
+
+    },
+    {
+      "DownStreamPathTemplate": "/api/parcel/deoparcele/sastoji/{id}",
+      "DownStreamScheme": "http",
+      "DownStreamHostAndPorts": [
+        {
+          "Host": "pservice",
+          "Port": 80
+        }
+
+      ],
+      "UpStreamPathTemplate": "/parcel/deoparcele/sastoji/{id}",
+      "UpStreamHttpMethod": [ "GET" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      },
+      "RouteClaimsRequirement": {
+        "useracctype": [ "Administrator", "Menadzer", "Tehnicki Sekretar", "Superuser" ]
+      }
+
+    }
+  ]
+}

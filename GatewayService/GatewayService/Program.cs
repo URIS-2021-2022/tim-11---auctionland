@@ -4,8 +4,10 @@ using Ocelot.DependencyInjection;
 using Ocelot.Middleware;
 using System.Text;
 
+
 var builder = WebApplication.CreateBuilder(args);
 var key = Encoding.ASCII.GetBytes("some random key that is now long enough");
+
 builder.Services.AddOcelot();
 builder.Services.AddAuthentication(options =>
 {
@@ -24,8 +26,8 @@ builder.Services.AddAuthentication(options =>
 });
 builder.Configuration.AddJsonFile("ocelot.json");
 var app = builder.Build();
-app.UseOcelot();
+IWebHostEnvironment env = app.Environment;
+builder.Configuration.AddOcelot("Routes", env);
 app.UseAuthentication();
-app.MapGet("/", () => "Hello World!");
-
+app.UseOcelot();
 app.Run();

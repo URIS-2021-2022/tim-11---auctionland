@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <packageSources>
+    <!--To inherit the global NuGet package sources remove the <clear/> line below -->
+    <clear />
+	<add key="nuget" value="https://api.nuget.org/v3/index.json" />
+   <add key="Online repo" value="http://localhost:8624/nuget/onlinerepo/v3/index.json" />
+  </packageSources>
+  <apikeys>
+    <add key="http://localhost:8624/nuget/onlinerepo/v3/index.json" value="d2ec0b5947c303c57ce7dedc3a3d78d3cb0d2db5" />
+</apikeys>
+  
+</configuration>

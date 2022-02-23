@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Tylwz7XdeVgmeMHZlzsHNbBZY8dMGL1u1XL+NR0ZjutlIzeQXTs2iL2WHUu0Rhnqp3Rs/Z72bBbmivAOnwziyQ==",
+  "dgSpecHash": "cimryXpLWHN3NyLObQs0MPQ8IHMzqEWdJWTMKRC0+Ga1bH5KMpeuyptJ8UDpxk3UDFTSH17TOvPH5Me5pRVd8g==",
   "success": true,
   "projectFilePath": "C:\\Users\\Alek\\Source\\Repos\\tim-11---auctionland\\ParcelService\\ParcelService\\ParcelService.csproj",
   "expectedPackageFiles": [
@@ -33,6 +33,7 @@
     "C:\\Users\\Alek\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.8.0\\microsoft.identitymodel.tokens.6.8.0.nupkg.sha512",
     "C:\\Users\\Alek\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\Alek\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Alek\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.14.0\\microsoft.visualstudio.azure.containers.tools.targets.1.14.0.nupkg.sha512",
     "C:\\Users\\Alek\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\Alek\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Users\\Alek\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",

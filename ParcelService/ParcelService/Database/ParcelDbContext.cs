@@ -10,7 +10,7 @@ namespace ParcelService.Database
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Data Source=91.148.115.79,1433\SQLEXPRESS;Initial Catalog=ParcelServiceDb; User ID = ParcelService; Password = parcel123; ");
+            optionsBuilder.UseSqlServer(@"Data Source=host.docker.internal,1433\SQLEXPRESS;Initial Catalog=ParcelServiceDb; User ID = ParcelService; Password = parcel123; ");
         }
     }
 }

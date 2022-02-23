@@ -1,0 +1,98 @@
+{
+  "Routes": [
+    {
+      "DownStreamPathTemplate": "/api/user",
+      "DownStreamScheme": "http",
+      "DownStreamHostAndPorts": [
+        {
+          "Host": "uservice",
+          "Port": 80
+        }
+
+      ],
+      "UpStreamPathTemplate": "/user",
+      "UpStreamHttpMethod": [ "GET" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      },
+      "RouteClaimsRequirement": {
+        "useracctype": [ "Administrator" ]
+      }
+    },
+    {
+      "DownStreamPathTemplate": "/api/user",
+      "DownStreamScheme": "http",
+      "DownStreamHostAndPorts": [
+        {
+          "Host": "uservice",
+          "Port": 80
+        }
+
+      ],
+      "UpStreamPathTemplate": "/user",
+      "UpStreamHttpMethod": [ "POST" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      },
+      "RouteClaimsRequirement": {
+        "useracctype": [ "Administrator" ]
+      }
+    },
+    {
+      "DownStreamPathTemplate": "/api/user/{id}",
+      "DownStreamScheme": "http",
+      "DownStreamHostAndPorts": [
+        {
+          "Host": "uservice",
+          "Port": 80
+        }
+
+      ],
+      "UpStreamPathTemplate": "/user/{id}",
+      "UpStreamHttpMethod": [ "GET" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      },
+      "RouteClaimsRequirement": {
+        "useracctype": [ "Menadzer", "Licitant" ]
+      }
+
+    },
+    {
+      "DownStreamPathTemplate": "/api/user/{id}",
+      "DownStreamScheme": "http",
+      "DownStreamHostAndPorts": [
+        {
+          "Host": "uservice",
+          "Port": 80
+        }
+
+      ],
+      "UpStreamPathTemplate": "/user/{id}",
+      "UpStreamHttpMethod": [ "PUT", "DELETE" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      },
+      "RouteClaimsRequirement": {
+        "useracctype": [ "Administrator" ]
+      }
+    },
+    {
+      "DownStreamPathTemplate": "/api/user/authenticate",
+      "DownStreamScheme": "http",
+      "DownStreamHostAndPorts": [
+        {
+          "Host": "uservice",
+          "Port": 80
+        }
+
+      ],
+      "UpStreamPathTemplate": "/user/authenticate",
+      "UpStreamHttpMethod": [ "POST" ]
+    }
+  ]
+}

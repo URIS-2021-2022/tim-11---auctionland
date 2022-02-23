@@ -8,9 +8,9 @@
     ".NETCoreApp,Version=v6.0": {
       "GatewayService/1.0.0": {
         "dependencies": {
-          "Microsoft.AspNetCore.Authentication.JwtBearer": "6.0.1",
+          "Microsoft.AspNetCore.Authentication.JwtBearer": "6.0.2",
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.14.0",
-          "Ocelot": "18.0.0"
+          "Ocelot": "19.0.0"
         },
         "runtime": {
           "GatewayService.dll": {}
@@ -24,14 +24,14 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Authentication.JwtBearer/6.0.1": {
+      "Microsoft.AspNetCore.Authentication.JwtBearer/6.0.2": {
         "dependencies": {
           "Microsoft.IdentityModel.Protocols.OpenIdConnect": "6.10.0"
         },
         "runtime": {
           "lib/net6.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll": {
-            "assemblyVersion": "6.0.1.0",
-            "fileVersion": "6.0.121.56714"
+            "assemblyVersion": "6.0.2.0",
+            "fileVersion": "6.0.222.6412"
           }
         }
       },
@@ -160,7 +160,7 @@
           }
         }
       },
-      "Ocelot/18.0.0": {
+      "Ocelot/19.0.0": {
         "dependencies": {
           "FluentValidation": "10.3.6",
           "Microsoft.AspNetCore.MiddlewareAnalysis": "6.0.1",
@@ -169,8 +169,8 @@
         },
         "runtime": {
           "lib/net6.0/Ocelot.dll": {
-            "assemblyVersion": "18.0.0.0",
-            "fileVersion": "18.0.0.0"
+            "assemblyVersion": "19.0.0.0",
+            "fileVersion": "19.0.0.0"
           }
         }
       },
@@ -203,12 +203,12 @@
       "path": "fluentvalidation/10.3.6",
       "hashPath": "fluentvalidation.10.3.6.nupkg.sha512"
     },
-    "Microsoft.AspNetCore.Authentication.JwtBearer/6.0.1": {
+    "Microsoft.AspNetCore.Authentication.JwtBearer/6.0.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-5LDZ36RYl/31dRl807Ad1WV3GwaYprYyPu6+pjTkjpjsv/e2wIs7/VMtcp04RKIjO9oANcvCahZWX1zpH2+tHg==",
-      "path": "microsoft.aspnetcore.authentication.jwtbearer/6.0.1",
-      "hashPath": "microsoft.aspnetcore.authentication.jwtbearer.6.0.1.nupkg.sha512"
+      "sha512": "sha512-piqHQnFONTynowTNuMDqCyL2oWSVrnoDhwc7iywwl4VG0Y2WCbpyoYQyiXlHpyc9htWy2KcM2cAe2twC4gBt8w==",
+      "path": "microsoft.aspnetcore.authentication.jwtbearer/6.0.2",
+      "hashPath": "microsoft.aspnetcore.authentication.jwtbearer.6.0.2.nupkg.sha512"
     },
     "Microsoft.AspNetCore.JsonPatch/6.0.1": {
       "type": "package",
@@ -308,12 +308,12 @@
       "path": "newtonsoft.json.bson/1.0.2",
       "hashPath": "newtonsoft.json.bson.1.0.2.nupkg.sha512"
     },
-    "Ocelot/18.0.0": {
+    "Ocelot/19.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-HAde/NLh+q1Szm54p218hKrd4ceYdNZ2UrfcTBbxJpSmPtXq0ER95otSLP+fnrFLT2UULUdkRL4noDZmG1A4AQ==",
-      "path": "ocelot/18.0.0",
-      "hashPath": "ocelot.18.0.0.nupkg.sha512"
+      "sha512": "sha512-SI2H03HEUlPnEWzB1uR+ua0yMHCdwptGuzholiw+Wbj7pArFSY8sgMVQY4rtUHht/dyedr+bxJpEunQrMxlQHA==",
+      "path": "ocelot/19.0.0",
+      "hashPath": "ocelot.19.0.0.nupkg.sha512"
     },
     "System.Diagnostics.DiagnosticSource/4.7.1": {
       "type": "package",

@@ -49,9 +49,9 @@ namespace UserService.Controllers
         }
         // POST api/<UserController>/Authenticate
         [HttpPost("Authenticate")]
-        public IActionResult Authenticate(string username, string password)
+        public IActionResult Authenticate([FromBody] LoginInfo model)
         {
-            var token = jwtAuthManager.Authenticate(username, password);
+            var token = jwtAuthManager.Authenticate(model.Username, model.Password);
             if (token == null)
                 return Unauthorized();
             return Ok(token);

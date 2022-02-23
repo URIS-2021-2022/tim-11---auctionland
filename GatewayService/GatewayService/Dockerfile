@@ -10,8 +10,10 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
+COPY ["GatewayService/NuGet.Config", "GatewayService/"]
+COPY ["NuGet.Config", "."]
 COPY ["GatewayService/GatewayService.csproj", "GatewayService/"]
-RUN dotnet restore "GatewayService/GatewayService.csproj"
+RUN dotnet restore "GatewayService/GatewayService.csproj" 
 COPY . .
 WORKDIR "/src/GatewayService"
 RUN dotnet build "GatewayService.csproj" -c Release -o /app/build
